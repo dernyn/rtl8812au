@@ -11,6 +11,7 @@ Realtek seem to have done a decent job here.
 Only changes to vanilla Realtek source added TP-Link VIDs, and slight changes to Makefile for quiet operation.
 
 Added (cosmeticly edited) original Realtek_Changelog.txt, this README.md and dkms.conf.
+Added a ready-made .deb package.
 
 ### Building
 
