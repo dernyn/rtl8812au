@@ -2,13 +2,13 @@
 
 ## Realtek 8812AU driver version 5.2.9
 
-Works fine with Ubuntu 17.04 Zesty 4.10 kernel. Also now tested and working fine on 4.11 & 4.12, after recent commits.
-Only support 8812AU.
+Works fine with Ubuntu 17.04 Zesty 4.10 kernel. Also now tested and working fine on 4.11, 4.12 and 4.13-rc1, after recent commits.
+Only support 8812AU. Now has every known (to me) device USB ID, sorted by ID number.
 
 Source builds with no warnings or errors, and is very stable in use.
 Realtek seem to have done a decent job here.
 
-Added (cosmeticly edited) original Realtek_Changelog.txt, this README.md and dkms.conf.
+Added (cosmeticly edited) original Realtek_Changelog.txt, this README.md, dkms.conf and a deb dkms package for convenience.
 
 ### Building
 
