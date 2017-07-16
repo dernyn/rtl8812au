@@ -36,6 +36,20 @@ To use dkms uninstall and remove:
 $ sudo dkms remove -m rtl8812au -v 5.2.9 --all
 ```
 
+### Deb package
+
+To install the dkms package on Debian, Ubuntu, Mint &etc:
+
+```sh
+$ sudo dpkg -i gord-rtl8812au-dkms_1.0-8_amd64.deb
+```sh
+
+To uninstall the dkms package on Debian, Ubuntu, Mint &etc:
+
+```sh
+$ sudo dpkg -P gord-rtl8812au-dkms
+```sh
+
 ### NetworkManager
 
 As others have noted, people using NetworkManager need to add this stanza to /etc/NetworkManager/NetworkManager.conf
