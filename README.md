@@ -42,13 +42,13 @@ To install the dkms package on Debian, Ubuntu, Mint &etc:
 
 ```sh
 $ sudo dpkg -i gord-rtl8812au-dkms_1.0-8_amd64.deb
-```sh
+```
 
 To uninstall the dkms package on Debian, Ubuntu, Mint &etc:
 
 ```sh
 $ sudo dpkg -P gord-rtl8812au-dkms
-```sh
+```
 
 ### NetworkManager
 
