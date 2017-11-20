@@ -1,6 +1,6 @@
 rtl8812au
 =========
-
+Raspberry Pi Friendly (Raspbian)
 Linux kernel driver for USB WiFi dongles based on Realtek rtl8812au chipset.
 
 This is a fork of gordboy/rtl8812au, which is based on 5.2.9 realtek driver
