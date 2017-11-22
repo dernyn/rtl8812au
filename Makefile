@@ -984,7 +984,7 @@ CROSS_COMPILE ?=
 KVER ?= $(shell uname -r)
 KSRC := /lib/modules/$(KVER)/build
 MODDESTDIR := /lib/modules/$(KVER)/kernel/drivers/net/wireless/
-INSTALL_PREFIX := $(shell if [ $(arch) = "armv7l" ];then echo "-j4";fi)
+INSTALL_PREFIX := $(shell if [ $(shell arch) = "armv7l" ];then echo "-j4";fi)
 endif
 
 ifeq ($(CONFIG_PLATFORM_ARM_ODROIDC2), y)
